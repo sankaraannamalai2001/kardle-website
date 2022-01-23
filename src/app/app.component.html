@@ -1,10 +1,11 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container px-md-5">
     <a class="navbar-brand ms-md-5 pb-0" href="#"
-      ><img
-        src="https://vivalyf.in/wp-content/uploads/2021/12/logo-4-600x228.png"
-        alt=""
-        class="img-fluid nav-img"
+      ><img src="../assets/kardlelogo.png" alt="" class="img-fluid nav-img"
     /></a>
     <button
       class="navbar-toggler"
@@ -22,31 +23,89 @@
         <li class="nav-item ms-md-5">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown ms-md-4">
           <a
-            class="nav-link dropdown-toggle"
+            class="nav-link dropdown-toggle active"
             href="#"
             id="navbarDropdownMenuLink"
             role="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            Dropdown link
+            About
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Our Journey</a></li>
+            <li><a class="dropdown-item" href="#">Our Team</a></li>
+            <li><a class="dropdown-item" href="#">Mission & Vision</a></li>
+            <li><a class="dropdown-item" href="#">Our Values</a></li>
           </ul>
+        </li>
+        <li class="nav-item ms-md-4">
+          <a class="nav-link active" href="#">Industries</a>
+        </li>
+        <li class="nav-item ms-md-4">
+          <a class="nav-link active" href="#">Air Purification</a>
+        </li>
+        <li class="nav-item ms-md-4">
+          <a class="nav-link active" href="#">Career</a>
+        </li>
+        <li class="nav-item ms-md-4">
+          <a class="nav-link active" href="#">Contact</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 <router-outlet></router-outlet>
+<footer class="mt-5 p-5">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      <div class="col-md-3 offset-md-1">
+        <div class="row">
+          <div class="col-1 offset-1 offset-md-0 col-md-3">
+            <img src="../assets/logoicon.png" class="logo-icon" alt="" />
+          </div>
+          <div class="col-8">
+            <p class="kardle-logo mb-0">KARDLE</p>
+            <p class="kardle-sub mt-0">THE CRADLE FOR TECHNOLOGY</p>
+          </div>
+        </div>
+        <div class="icons-grp ms-md-5 mt-1 mb-3 mb-md-0">
+          <a class="btn btn-primary icons ms-md-1"
+            ><i class="fa fa-facebook-f" style="font-size: 18px"></i
+          ></a>
+          <a class="btn btn-primary icons ms-3 px-2"
+            ><i class="fa fa-twitter" style="font-size: 18px"></i
+          ></a>
+          <a class="btn btn-primary icons ms-3 px-2"
+            ><i class="fa fa-instagram" style="font-size: 18px"></i
+          ></a>
+          <a class="btn btn-primary icons ms-3 px-2"
+            ><i class="fa fa-linkedin-square" style="font-size: 18px"></i
+          ></a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <p class="footer-head">Address</p>
+        <p class="footer-sub">
+          4/89, Perumal Kovil Street,<br />
+          12. Kuthambakkam south,<br />
+          Poonamallee Block, Chennai- 600124
+        </p>
+      </div>
+      <div class="col-md-4 ms-md-5">
+        <p class="footer-head">Contact</p>
+        <p class="footer-sub">
+          <i class="fa fa-whatsapp" style="font-size: 18px; color: white"></i>
+          9840153059<br />
+          <i class="fa fa-envelope" style="font-size: 18px; color: white"></i>
+          ceokardle@gmail.com <br />
+          FOR BOOKINGS CALL
+          <i class="fa fa-phone" style="font-size: 18px; color: white"></i>
+          9840153059
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
