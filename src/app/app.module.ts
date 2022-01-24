@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AirPurificationComponent } from './air-purification/air-purification.component';
 import { CareerComponent } from './career/career.component';
+import { OurteamComponent } from './ourteam/ourteam.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AirPurificationComponent,
-    CareerComponent
+    CareerComponent,
+    OurteamComponent
   ],
   imports: [
     BrowserModule,
