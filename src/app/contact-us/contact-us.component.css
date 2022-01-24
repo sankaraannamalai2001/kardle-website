@@ -20,6 +20,8 @@
     border-radius: 30%;
     border-color:  #4c60c9 !important;
     color:#4c60c9 ;
+    padding-bottom: 0%;
+    padding-top: 0.5%;
 }
 .icons:hover i {
     color: white !important;
