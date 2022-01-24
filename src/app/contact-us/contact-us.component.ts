@@ -39,7 +39,4 @@ export class ContactUsComponent implements OnInit,AfterViewInit {
       quantity: 2.00
     })
   }
-  
-  
-
 }

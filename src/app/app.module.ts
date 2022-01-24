@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AirPurificationComponent } from './air-purification/air-purification.component';
 import { CareerComponent } from './career/career.component';
-import { OurteamComponent } from './ourteam/ourteam.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { FormServiceService } from './form-service.service';
 import { FormsModule } from '@angular/forms';
