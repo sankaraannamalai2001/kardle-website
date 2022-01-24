@@ -40,11 +40,12 @@
 .social {
   visibility: hidden;
   transition: transform 0.3s ease-in-out;
+  transform: translateY(2rem);
 }
 
 .box:hover .social {
   visibility: visible;
-  transform: translateY(-2rem);
+  transform: translateY(-1rem);
 }
 .box:hover .desig {
   transform: translateY(-2rem) !important;
