@@ -6,17 +6,23 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AirPurificationComponent } from './air-purification/air-purification.component';
 import { CareerComponent } from './career/career.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AirPurificationComponent,
-    CareerComponent
+    CareerComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
