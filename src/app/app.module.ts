@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { AirPurificationComponent } from './air-purification/air-purification.component';
 import { CareerComponent } from './career/career.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { AboutComponent } from './about/about.component';
 
 
 
@@ -17,7 +18,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     HomeComponent,
     AirPurificationComponent,
     CareerComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

@@ -18,8 +18,8 @@
 .icons{
     background-color:  white !important;
     border-radius: 30%;
-    border-color:  #242f65 !important;
-    color:#242f65 ;
+    border-color:  #4c60c9 !important;
+    color:#4c60c9 ;
 }
 .icons:hover i {
     color: white !important;
@@ -27,4 +27,8 @@
   .icons:hover {
     background-color: #4c60c9 !important;
     border-color: #4c60c9 !important;
+  }
+  .map{
+    position:relative;
+    height: 50vh;
   }

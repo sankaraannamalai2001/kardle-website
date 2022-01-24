@@ -4,6 +4,7 @@ import { AirPurificationComponent } from './air-purification/air-purification.co
 import { CareerComponent } from './career/career.component';
 import { HomeComponent } from './home/home.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { AboutComponent } from './about/about.component';
 const routes: Routes = [
   {
     path: 'home',
@@ -20,6 +21,10 @@ const routes: Routes = [
   {
     path: 'contact',
     component:ContactUsComponent
+  },
+  {
+    path:'about',
+    component:AboutComponent
   },
   {
     path: '**',
