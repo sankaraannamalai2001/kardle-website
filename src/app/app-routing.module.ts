@@ -4,7 +4,6 @@ import { AirPurificationComponent } from './air-purification/air-purification.co
 import { CareerComponent } from './career/career.component';
 import { HomeComponent } from './home/home.component';
 import { OurteamComponent } from './ourteam/ourteam.component';
-
 import { ContactUsComponent } from './contact-us/contact-us.component';
 
 import { AboutComponent } from './about/about.component';

@@ -8,8 +8,9 @@ import { AirPurificationComponent } from './air-purification/air-purification.co
 import { CareerComponent } from './career/career.component';
 import { OurteamComponent } from './ourteam/ourteam.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
-import { AboutComponent } from './about/about.component';
-
+import { FormServiceService } from './form-service.service';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,15 +18,10 @@ import { AboutComponent } from './about/about.component';
     AirPurificationComponent,
     CareerComponent,
     ContactUsComponent,
-    AboutComponent
+    
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-
-  ],
-
-  providers: [],
+  imports: [BrowserModule, AppRoutingModule,FormsModule,HttpClientModule],
+  providers: [FormServiceService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
