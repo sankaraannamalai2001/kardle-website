@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Merriweather:wght@900&family=Roboto:wght@300;400&display=swap");
+
+.section-1 {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.section-1 h4{
+    text-align: center;
+    font-family: "Merriweather", Sans-serif !important;
+  font-size: 40px;
+  font-weight: 900;
+  color: #242f65;
+}
+.section-1 h3{
+    font-size: 20px;
+  font-weight: 900;
+}
+.icons{
+    background-color:  white !important;
+    border-radius: 30%;
+    border-color:  #242f65 !important;
+    color:#242f65 ;
+}
+.icons:hover i {
+    color: white !important;
+  }
+  .icons:hover {
+    background-color: #4c60c9 !important;
+    border-color: #4c60c9 !important;
+  }

@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { AirPurificationComponent } from './air-purification/air-purification.component';
 import { CareerComponent } from './career/career.component';
 import { OurteamComponent } from './ourteam/ourteam.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -14,13 +15,11 @@ import { OurteamComponent } from './ourteam/ourteam.component';
     HomeComponent,
     AirPurificationComponent,
     CareerComponent,
-    OurteamComponent
+    OurteamComponent,
+    ContactUsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
