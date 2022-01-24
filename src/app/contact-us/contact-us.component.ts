@@ -16,11 +16,11 @@ export class ContactUsComponent implements OnInit,AfterViewInit {
 
   constructor() { }
   ngAfterViewInit(): void {
-    this.map = new google.maps.Map(this.mapElement.nativeElement, {
+    /*this.map = new google.maps.Map(this.mapElement.nativeElement, {
       center:this.center ,
       zoom: 18,
     });
-    this.marker = new google.maps.Marker({position:this.center, map:this.map})
+    this.marker = new google.maps.Marker({position:this.center, map:this.map})*/
   }
 
   ngOnInit(): void {
@@ -39,4 +39,5 @@ export class ContactUsComponent implements OnInit,AfterViewInit {
       quantity: 2.00
     })
   }
+
 }
