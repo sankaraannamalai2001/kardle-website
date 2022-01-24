@@ -6,11 +6,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AirPurificationComponent } from './air-purification/air-purification.component';
 import { CareerComponent } from './career/career.component';
+import { OurteamComponent } from './ourteam/ourteam.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutComponent } from './about/about.component';
-
-
-
 
 @NgModule({
   declarations: [
@@ -26,7 +24,8 @@ import { AboutComponent } from './about/about.component';
     AppRoutingModule,
 
   ],
+
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
