@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root',
 })
 export class FormServiceService {
-  private formUrl = 'https://mailthis.to/sankarannamalai01@gmail.com';
+  private formUrl = 'https://formspree.io/f/xdobavdp';
   constructor(private http: HttpClient) {}
   sendMail(user: object) {
     return this.http.post(this.formUrl, user, { responseType: 'text' });

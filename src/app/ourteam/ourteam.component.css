@@ -30,17 +30,18 @@
   font-family: "lato", Sans-serif !important;
   font-size: 18px;
   transition: transform 0.3s ease-in-out !important;
+  transform: translateY(1rem);
 }
 .desig {
   font-size: 12px;
   font-family: "Roboto", sans-serif !important;
   font-weight: 600;
   transition: transform 0.3s ease-in-out;
+  transform: translateY(1rem);
 }
 .social {
   visibility: hidden;
   transition: transform 0.3s ease-in-out;
-  transform: translateY(2rem);
 }
 
 .box:hover .social {
@@ -48,10 +49,10 @@
   transform: translateY(-1rem);
 }
 .box:hover .desig {
-  transform: translateY(-2rem) !important;
+  transform: translateY(-1rem) !important;
 }
 .box:hover .name {
-  transform: translateY(-2rem) !important;
+  transform: translateY(-1rem) !important;
 }
 .box:hover .team-img {
   transform: scale(1.05);

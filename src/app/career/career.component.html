@@ -58,7 +58,7 @@
         <span class="details me-4">Telphone : 9840153059</span>
         <span class="details ms-5">Email:ceokardle@gmail.com</span>
       </div>
-      <div class="col-md-5 ms-md-0 ms-xs-3 mt-2 right photos">
+      <div class="col-md-5 ms-md-0 ms-xs-3 mt-2 photos">
         <form>
           <div class="mb-3">
             <label for="name" class="form-label"
@@ -69,6 +69,8 @@
               class="form-control"
               id="name"
               placeholder="Your name"
+              [(ngModel)]="CareerFormData.name"
+              name="name"
             />
           </div>
           <div class="mb-3">
@@ -81,10 +83,12 @@
               class="form-control"
               id="name"
               placeholder="081234 56789"
+              [(ngModel)]="CareerFormData.phone"
+              name="phone"
             />
           </div>
           <div class="mb-3">
-            <label for="name" class="form-label" name="_replyto" type="email"
+            <label for="name" class="form-label" type="email"
               >Email <span style="color: red; font-size: 12px">*</span></label
             >
             <input
@@ -92,6 +96,8 @@
               class="form-control"
               id="name"
               placeholder="Your Email"
+              [(ngModel)]="CareerFormData._replyto"
+              name="email"
             />
           </div>
           <div class="mb-3">
@@ -99,7 +105,12 @@
               >Your Role
               <span style="color: red; font-size: 12px">*</span></label
             >
-            <select class="form-select" aria-label="Default select example">
+            <select
+              class="form-select"
+              aria-label="Default select example"
+              [(ngModel)]="CareerFormData.role"
+              name="role"
+            >
               <option value="AR & VR" selected>AR & VR</option>
               <option value="Business Development">Business Development</option>
               <option value="Electricals & Electronics">
@@ -119,10 +130,15 @@
               id="yourself"
               placeholder="Why choose us?"
               rows="3"
+              [(ngModel)]="CareerFormData.about"
+              name="about"
             ></textarea>
+            <div class="msg">{{ msg }}</div>
+            <div class="errmsg">{{ errmsg }}</div>
             <button
               class="btn btn-primary mt-3 submit"
               style="background-color: #242f65; border-color: #242f65"
+              (click)="submitForm()"
             >
               Submit
             </button>

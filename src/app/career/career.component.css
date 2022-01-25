@@ -56,3 +56,42 @@ label {
   background-color: #6ec1e4 !important;
   border-color: #6ec1e4 !important;
 }
+.msg {
+  color: green;
+  font-family: "Roboto", Sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+.errmsg {
+  color: red;
+  font-family: "Roboto", Sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.left {
+  animation-name: move1;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+.right {
+  animation-name: move2;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes move1 {
+  from {
+    transform: translateX(-10rem);
+  }
+  to {
+    transform: translateX(0rem);
+  }
+}
+@keyframes move2 {
+  from {
+    transform: translateX(10rem);
+  }
+  to {
+    transform: translateX(0rem);
+  }
+}
