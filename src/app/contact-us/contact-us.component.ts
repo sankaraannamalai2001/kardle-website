@@ -38,6 +38,16 @@ export class ContactUsComponent implements OnInit,AfterViewInit {
       birdSize: 2.00,
       quantity: 2.00
     })
+
+    
+  }
+
+
+   mailid() {
+    navigator.clipboard.writeText("ceokardle@gmail.com");
+  }
+  phnno() {
+    navigator.clipboard.writeText("9840153059");
   }
 
 }

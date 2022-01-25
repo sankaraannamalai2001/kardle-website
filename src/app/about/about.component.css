@@ -1,3 +1,75 @@
 .section-1{
     margin-top: 400px;
 }
+.title{
+    color: #242f65;
+    font-family: lato,sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+.titlediv{
+    background-color: #f1f5fa;
+}
+.sub-title {
+    color: #767b92;
+    font-family: "Roboto", Sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    
+  }
+  .mv {
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    padding: 10%;
+    
+  }
+  .mvcon{
+    background-color: #f1f5fab9;
+     border-radius: 20%;
+     transition: box-shadow 1s;
+  }
+.mvcon:hover{
+    box-shadow: 0px 0px 10px blue;
+}
+  .clr{
+      background-color: #f1f5fab9;
+  }
+.section-2 h4 {
+  font-family: "lato", Sans-serif !important;
+  font-size: 30px;
+  font-weight: 900;
+  color: #242f65;
+}
+.award-img{
+    border-radius: 5%;
+}
+
+.hidden-right {
+    opacity: 0;
+    transform: translateX(8rem);
+  }
+  .hidden-left {
+    opacity: 0;
+    transform: translateX(-8rem);
+  }
+  .content {
+    transition: transform 1s, opacity 1s;
+  }
+  .photos {
+    transition: transform 1s, opacity 2s;
+  }
+
+.jor-img{
+    transition: box-shadow 2s;
+}
+  .jor-img:hover{
+   box-shadow: 0px 0px 10px black;
+  }
+
+  .img-hg{
+      width: 50%;
+      height: auto;
+  }

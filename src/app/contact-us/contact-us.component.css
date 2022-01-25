@@ -6,7 +6,7 @@
 }
 .section-1 h4{
     text-align: center;
-    font-family: "Merriweather", Sans-serif !important;
+    font-family:  lato,Sans-serif !important;
   font-size: 40px;
   font-weight: 900;
   color: #242f65;
@@ -14,6 +14,10 @@
 .section-1 h3{
     font-size: 20px;
   font-weight: 900;
+}
+.section-1 h5{
+  font-family: lato, sans-serif !important;
+ 
 }
 .con1{
   font-size: 60px;
@@ -70,3 +74,7 @@
     width:100%;
     position:absolute;
     }
+.img-map{
+  width: 100%;
+  height: 50vh;
+}

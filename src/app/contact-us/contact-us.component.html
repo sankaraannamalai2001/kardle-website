@@ -1,16 +1,24 @@
 <div class="container section-1" id="your-element-selector">
   <div class="row">
     <div>
-      <h4>PING US</h4>
+      <h4>Ping Us</h4>
     </div>
     <div class="row mt-md-5 mt-3">
       <div class="container col-md-6 mb-md-0 mb-5">
-        <div class="container map" #mapElement style="box-shadow: 0px 0px 15px black;"></div>
+     
+        <div class=" map" #mapElement style="box-shadow: 0px 0px 15px black;" >
+          <a target="blank" 
+            href="https://www.google.com/maps/place/KARDLE+Industries/@13.0505658,80.0258356,18.77z/data=!4m5!3m4!1s0x3a528b449368b5f3:0xc50d750eb132ea05!8m2!3d13.0504923!4d80.0262572">
+            <img title="clik to view the location" 
+              class="img img-map" src="../../assets/map.png">
+          </a>
+        </div>
+        
       </div>
       <div class="col-md-6">
         <div class="row mt-md-5">
           <div class="col-5 position-relative">
-            <a class="con1" href=""><i
+            <a class="con1" ><i (click)="phnno()"  title="click to copy"
               class="fa fa-phone position-absolute start-50 "
             ></i></a>
           </div>
@@ -26,7 +34,7 @@
         <br />
         <div class="row mt-md-5">
           <div class="col-5 position-relative">
-            <a href="" class="con2"><i
+            <a  class="con2"><i (click)="mailid()"  title="click to copy"
               class="fa fa-envelope position-absolute start-50 con"
               
             ></i></a>
