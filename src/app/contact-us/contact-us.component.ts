@@ -16,11 +16,11 @@ export class ContactUsComponent implements OnInit,AfterViewInit {
 
   constructor() { }
   ngAfterViewInit(): void {
-    this.map = new google.maps.Map(this.mapElement.nativeElement, {
+    /*this.map = new google.maps.Map(this.mapElement.nativeElement, {
       center:this.center ,
       zoom: 18,
     });
-    this.marker = new google.maps.Marker({position:this.center, map:this.map})
+    this.marker = new google.maps.Marker({position:this.center, map:this.map})*/
   }
 
   ngOnInit(): void {
@@ -38,8 +38,16 @@ export class ContactUsComponent implements OnInit,AfterViewInit {
       birdSize: 2.00,
       quantity: 2.00
     })
+
+    
   }
-  
-  
+
+
+   mailid() {
+    navigator.clipboard.writeText("ceokardle@gmail.com");
+  }
+  phnno() {
+    navigator.clipboard.writeText("9840153059");
+  }
 
 }
