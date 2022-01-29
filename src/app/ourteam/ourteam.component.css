@@ -62,7 +62,7 @@
 }
 .icon:hover {
   transform: translateY(-0.2rem) !important;
-  color: aqua;
+  color: #6ec1e4;
 }
 
 .hidden {

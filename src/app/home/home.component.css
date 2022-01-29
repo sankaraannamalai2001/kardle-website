@@ -18,7 +18,7 @@
   color: #242f65;
 }
 .biotorr-img-2 {
-  height: 95%;
+  height: 85%;
 }
 .biotorr-desc {
   font-family: "Roboto", Sans-serif;
@@ -136,4 +136,24 @@
   to {
     top: 50%;
   }
+}
+.section-5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.bio-heading {
+  font-size: 48px;
+  font-family: "lato", sans-serif;
+  font-weight: 900;
+  color: #242f65;
+}
+.features {
+  border: 0.1px solid transparent;
+  transition: border 0.3s ease-in-out !important;
+}
+.features:hover {
+  border: 1px solid black;
+  color: #242f65 !important;
+  transition: border 0.3s ease-in-out;
 }
