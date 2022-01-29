@@ -7,21 +7,9 @@ declare var VANTA:any;
   templateUrl: './contact-us.component.html',
   styleUrls: ['./contact-us.component.css']
 })
-export class ContactUsComponent implements OnInit,AfterViewInit {
-
-  map:any;
-  marker:any;
-  @ViewChild('mapElement') mapElement:any;
-  center: any={ lat: 13.050522213412172, lng:  80.0262496821277};
+export class ContactUsComponent implements OnInit {
 
   constructor() { }
-  ngAfterViewInit(): void {
-    /*this.map = new google.maps.Map(this.mapElement.nativeElement, {
-      center:this.center ,
-      zoom: 18,
-    });
-    this.marker = new google.maps.Marker({position:this.center, map:this.map})*/
-  }
 
   ngOnInit(): void {
     VANTA.BIRDS({
@@ -39,9 +27,7 @@ export class ContactUsComponent implements OnInit,AfterViewInit {
       quantity: 2.00
     })
 
-    
   }
-
 
    mailid() {
     navigator.clipboard.writeText("ceokardle@gmail.com");

@@ -60,6 +60,7 @@
   }
   .photos {
     transition: transform 1s, opacity 2s;
+    padding: 5%;
   }
 
 .jor-img{
@@ -73,3 +74,18 @@
       width: 50%;
       height: auto;
   }
+  .nav>li>a.active,
+  .nav>li>a:hover,
+  .nav>li>a:focus {
+     background-color:  #242f65;
+     color:#ffffff;
+  }
+  .nav>li>a{
+    color: white;
+    background-color: #575757;
+
+  }
+  .nav>li{
+   padding: 5%;
+  }
+ 
